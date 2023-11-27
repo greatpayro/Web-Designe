@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="GreatPayro">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="text">
+        <title>DropDown Menu With JQuery</title>
+        <style>
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            ul{
+                list-style:none;
+                text-align: right;
+                
+            }
+            
+            li>div{
+                background: #00a3ff;
+                padding: 10px;
+                color: white;
+                font-size: 22px;
+                border :1px solid #efefefc3
+            }
+            li>ul{
+                background: #f6f6f6;
+                padding: 5px;
+                display:none;
+            }
+            li>ul>li{
+                padding :10px;
+            }
+        </style>
+    </head>
+    <body>
+        <ul class="accordion">
+            <li>
+                <div>آیتم اول </div>
+                <ul>
+                    <li><a href="#">لینک اول</a></li>
+                    <li><a href="#">لینک دوم</a></li>
+                    <li><a href="#">لینک سوم</a></li>
+                </ul>
+            </li>
+            <li>
+                <div>آیتم دوم </div>
+                <ul>
+                    <li><a href="#">لینک چهارم</a></li>
+                    <li><a href="#">لینک پنجم</a></li>
+                    <li><a href="#">لینک ششم</a></li>
+                </ul>
+            </li>
+            <li>
+                <div>آیتم سوم</div>
+                <ul>
+                    <li><a href="#">لینک هفتم</a></li>
+                    <li><a href="#">لینک هشتم</a></li>
+                    <li><a href="#">لینک نهم</a></li>
+                </ul>
+            </li>
+        </ul>
+        
+        <!-- Start Js Scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
